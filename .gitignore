@@ -1,0 +1,32 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+terraform.tfstate
+terraform.tfstate.backup
+*.tfout
+
+# Ignore .terraform directory
+.terraform/
+
+# Ignore .idea directory for JetBrains IDEs
+.idea/
+
+# Ignore .vscode directory for Visual Studio Code
+.vscode/
+
+# Ignore .terraform.lock.hcl file
+.terraform.lock.hcl
+
+# Ignore override files as they are usually used to override resources locally and don't need to be committed
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore crash log files
+crash.log
+
+# Ignore docker volume
+volume
